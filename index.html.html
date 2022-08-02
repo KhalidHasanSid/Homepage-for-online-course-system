@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            color: white;
+            padding: 0px;
+            margin: 0px;
+            background: url('websiteit pic.jpg');
+            background-size: cover;
+            background-color: rgb(16, 87, 16);
+            
+           
+        }
+        header{
+        border:  2px solid black;
+           background-color: black;
+        }
+        .left{
+            display: inline-block;
+           /* border:2px solid yellow;*/
+            position: absolute;
+            top: 1px;
+
+
+        }
+        .left img{
+            width: 121px;
+            
+        }
+        .mid{
+           /* border:2px solid green;*/
+            width: 65%;
+            margin:  15px auto;
+
+        }
+        .right{
+            display: inline-block;
+           /* border:2px solid orange;*/
+            position: absolute;
+            right: 10px;
+            top: 20px;
+        }
+        .mid  li {
+          /* border: 2px solid purple;*/
+            display: inline-block  ;
+        }
+       .mid ul li a{
+              padding: 0px 35px 0px 35px;
+              text-decoration: none;
+              color: white;
+              font-size: 20px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-weight: bolder;
+             /* border: 2px solid cyan;*/
+        }
+        
+        .mid  ul li  a:hover,.mid  ul li  a:hover .active{
+            
+            text-decoration: underline;
+            /*color: green;*/
+            background-color:darkblue;
+        
+        }
+        .right .btn{
+            color: white;
+            width: 80px;
+            padding: 6px 8px 6px 8px;
+            background-color: blue;
+            font-weight: bolder;
+            
+        }
+        .fff{
+            border: 5px solid white;
+            border-radius: 6px;
+            display: block;
+            width: 40%;
+            height: 60%;
+            position: absolute;
+            top: 150px;
+            left: 90px;
+        }
+        form{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: auto;
+        }
+         input{
+             display: block;
+             margin:  25px auto;
+             text-align: center;
+             color: blue;
+             padding-top: 2px ;
+             padding-bottom: 2px;
+             font-size: 20px;
+             font-weight: bolder;
+             padding-left: 70px;
+             padding-right: 70px;
+             border-radius: 7px;
+             
+         }
+         #sh{
+             border: 1px solid green;
+             display: inline-block;
+             margin-top: 20px;
+             margin-bottom: 20px;
+             margin-left: 140px;
+         }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+    
+        
+        <div class="left">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="#"  class="active">home</a></li>
+                <li><a href="#">courses</a></li>
+                <li><a href="#">career</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+              <button class="btn">log in</button>
+        </div>
+    </header>
+    <div class="fff">
+        <h3 id="sh"> Welcome,to EIT development courses</h3>
+        <form>
+            <input  name="text" placeholder="name" >
+           
+            <input  name="text" placeholder="mobile number" >
+           
+            <input  name="text" placeholder="in block letters" >
+           
+            <input  name="text" placeholder="in block letters" >
+          
+            <input  id="butt" type="submit" name="register"  >
+        </form>
+    </div>
+    
+</body>
+</html>
